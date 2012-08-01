@@ -20,6 +20,13 @@ WriteMakefile(
     'CC'                => 'g++',
     'LD'                => '$(CC)',
     'MYEXTLIB'          => 'ForexConnectWrapper/libForexConnectWrapper$(LIB_EXT)',
+    'BUILD_REQUIRES'    => {
+        'Test::More'    =>  0,
+        'Scalar::Util'  =>  0,
+    },
+    'PREREQ_PM'         => {
+        'YAML::Syck'    => 0,
+    },
     ( $] >= 5.005 ? 
         (   ABSTRACT_FROM       => 'lib/Finance/FXCM/Simple.pm',
             AUTHOR              => 'Joao Costa <joaocosta@zonalivre.org>',
