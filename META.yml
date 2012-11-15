@@ -1,23 +1,23 @@
----
-abstract: 'A synchronous wrapper to the FXCM ForexConnect API which is simple to use.'
+--- #YAML:1.0
+name:               Finance-FXCM-Simple
+version:            0.008
+abstract:           A synchronous wrapper to the FXCM ForexConnect API which is simple to use.
 author:
-  - 'Joao Costa <joaocosta@zonalivre.org>'
-build_requires:
-  Scalar::Util: 0
-  Test::More: 0
+    - João Costa <joaocosta@zonalivre.org>
+license:            mit
+distribution_type:  module
 configure_requires:
-  ExtUtils::MakeMaker: 0
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
-license: unknown
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-name: Finance-FXCM-Simple
-no_index:
-  directory:
-    - t
-    - inc
+    ExtUtils::MakeMaker:  0
+build_requires:
+    Scalar::Util:  0
+    Test::More:    0
 requires:
-  YAML::Syck: 0
-version: 0.007
+    YAML::Syck:  0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.57_05
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
