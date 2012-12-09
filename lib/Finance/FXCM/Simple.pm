@@ -1,8 +1,9 @@
 use strict;
 use warnings;
 package Finance::FXCM::Simple;
-
-our $VERSION = 0.008;
+{
+  $Finance::FXCM::Simple::VERSION = '0.009';
+}
 
 require XSLoader;
 XSLoader::load(
@@ -25,6 +26,8 @@ sub getOffersHash {
 }
 
 1;
+
+=encoding utf8
 
 =head1 NAME
 
@@ -263,6 +266,11 @@ Value indicating wether subscription should be set or unset. Use 'T' to subscrib
 =back
 
 =back
+
+=head1 SOURCE CODE AND CI
+
+L<https://github.com/joaocosta/Finance-FXCM-Simple>
+L<https://travis-ci.org/joaocosta/Finance-FXCM-Simple>
 
 =head1 AUTHOR
 
