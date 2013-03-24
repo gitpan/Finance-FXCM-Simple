@@ -2,8 +2,6 @@ use ExtUtils::MakeMaker;
 
 
 
-use Config;
-
 my $fxconnect_home = $ENV{FXCONNECT_HOME} || '.';
 
 WriteMakefile(

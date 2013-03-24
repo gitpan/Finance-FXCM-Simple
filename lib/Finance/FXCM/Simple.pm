@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Finance::FXCM::Simple;
 {
-  $Finance::FXCM::Simple::VERSION = '0.009';
+  $Finance::FXCM::Simple::VERSION = '0.010';
 }
 
 require XSLoader;
@@ -278,7 +278,7 @@ João Costa <joaocosta@zonalivre.org>
 
 =head1 COPYRIGHT AND LICENSE
 
- This software is Copyright (c) 2012 by João Costa.
+ This software is Copyright (c) 2013 by João Costa.
 
  This is free software, licensed under:
 

@@ -21,6 +21,7 @@ META.yml
 Makefile.PL
 README
 README.md
+fxcm-bad-ticks
 lib/Finance/FXCM/Simple.pm
 perlobject.map
 ppport.h

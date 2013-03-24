@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution Finance-FXCM-Simple,
-version 0.009:
+version 0.010:
 
   A synchronous wrapper to the FXCM ForexConnect API which is simple to use.
 
-This software is Copyright (c) 2012 by João Costa.
+This software is Copyright (c) 2013 by João Costa.
 
 This is free software, licensed under:
 
